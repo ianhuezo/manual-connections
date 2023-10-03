@@ -265,11 +265,7 @@ echo
 echo
 
 echo -e "Starting procedure to enable port forwarding by running the following command:
-$ ${green}PIA_TOKEN=$PIA_TOKEN \\
-  PF_GATEWAY=$gateway_ip \\
-  PF_HOSTNAME=$OVPN_HOSTNAME \\
-  ./port_forwarding.sh${nc}"
-
+echo \
 PIA_TOKEN=$PIA_TOKEN \
   PF_GATEWAY=$gateway_ip \
   PF_HOSTNAME=$OVPN_HOSTNAME \
